@@ -1,2 +1,0 @@
-# tslearn
-tslearn-demo

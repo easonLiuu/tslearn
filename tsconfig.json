@@ -1,0 +1,23 @@
+{
+    //ts编译器配置文件, 根据配置信息对代码进行编译
+    "include": [
+        "./src/**/*"
+    ],
+    // "exclude": [
+    //     "./src/hello/**/*"
+    // ]
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "System",
+        "lib": ["ES6", "DOM"],
+        "outDir": "./dist",
+        "outFile": "dist/app.js",
+        "allowJs": true,
+        "checkJs": true,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+
+    }
+}
